@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  role_name: nfs_server
+  author: vinigx457
+  description: Instalacao e Configuracao do servidor NFS
+  company: vinigx457
+  license: GPLv3
+  min_ansible_version: 2.9
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+    - name: EL
+      versions:
+        - 8
+  galaxy_tags:
+    - nfs
+      #dependencies:
+#  - conf-base
+...
